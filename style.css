@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  overflow-x: hidden;
+  background-color: black;
+  width: 100%;
+}
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+ul .nav-link {
+  color: black;
+}
+h2 {
+  color: white;
+  font-size: 30px;
+}
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 32px;
+  color: white;
+}
+#about {
+  height: auto;
+  width: 100%;
+  filter: blur(px);
+  -webkit-filter: blur(px);
+}
+#img1 {
+  width: 19rem;
+}
+#achivement {
+  height: auto;
+}
+.achive {
+  width: 100%;
+}
+#about img{
+    width: 20%;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+/* Desktop 1600px   */
+@media (max-width: 1850px) {
+    .nav-item{
+        padding: 0 100px;
+     }
+}
+
+/* Desktop 1440px    */
+@media (max-width: 1440px) {
+    .nav-item{
+        padding: 0 100px;
+     }
+}
+
+/* Desktop 1280px    */
+@media (max-width: 1366px) {
+    .nav-item{
+        padding: 0 100px;
+     }
+}
+
+/* iPad 1024px    */
+@media (max-width: 1199px) {
+    .nav-item{
+        padding: 0 80px;
+     }
+}
+
+/* iPad 991px   */
+@media (max-width: 991px) {
+    #about h1{
+        font-size: 30px;
+     }
+     #about img{
+        width: 30%;
+     }
+     .nav-item{
+        padding: 0 50px;
+     }
+}
+
+/* Iphone 767px   */
+@media (max-width: 767px) {
+    #about h1{
+        font-size: 30px;
+     }
+     #about img{
+        width: 30%;
+     }
+     .nav-item{
+        padding: 0 35px;
+     }
+}
+
+/* Iphone 567px    */
+@media (max-width: 567px) {
+    #about h1{
+        font-size: 30px;
+     }
+     #about img{
+        width: 40%;
+     }
+     .nav-item{
+        padding: 0 10px;
+     }
+}
+
+/* Mobile 375px    */
+@media (max-width: 375px) {
+    #about h1{
+        font-size: 30px;
+     }
+     #about img{
+        width: 40%;
+     }
+     .nav-item{
+        padding: 0 10px;
+     }
+}
+
+/* Mobile 360px    */
+@media (max-width: 360px) {
+    #about h1{
+        font-size: 30px;
+     }
+     #about img{
+        width: 40%;
+     }
+     .nav-item{
+        /* padding: 0 10px; */
+     }
+}
+
+/* Mobile 320px    */
+@media (max-width: 320px) {
+ #about h1{
+    font-size: 25px;
+ }
+ #about img{
+    width: 40%;
+ }
+}
