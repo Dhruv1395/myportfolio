@@ -76,104 +76,24 @@ h1 {
  .icon:hover {
    transform: scale(1.1);
  }
-
-/* Desktop 1600px   */
-@media (max-width: 1850px) {
-    .nav-item{
-        padding: 0 100px;
-     }
+section{
+  background-image: url(bg2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* Desktop 1440px    */
-@media (max-width: 1440px) {
-    .nav-item{
-        padding: 0 100px;
-     }
+/* contact part */
+#contact h3{
+  color: white;
+  padding-top: 50px;
 }
-
-/* Desktop 1280px    */
-@media (max-width: 1366px) {
-    .nav-item{
-        padding: 0 100px;
-     }
+#contact i{
+  font-size: 30px;
 }
-
-/* iPad 1024px    */
-@media (max-width: 1199px) {
-    .nav-item{
-        padding: 0 80px;
-     }
+#contact .nav-item{
+  margin: 10px 25px 0 25px;
 }
-
-/* iPad 991px   */
-@media (max-width: 991px) {
-    #about h1{
-        font-size: 30px;
-     }
-     #about img{
-        width: 30%;
-     }
-     .nav-item{
-        padding: 0 50px;
-     }
-}
-
-/* Iphone 767px   */
-@media (max-width: 767px) {
-    #about h1{
-        font-size: 30px;
-     }
-     #about img{
-        width: 30%;
-     }
-     .nav-item{
-        padding: 0 35px;
-     }
-}
-
-/* Iphone 567px    */
-@media (max-width: 567px) {
-    #about h1{
-        font-size: 30px;
-     }
-     #about img{
-        width: 40%;
-     }
-     .nav-item{
-        padding: 0 10px;
-     }
-}
-
-/* Mobile 375px    */
-@media (max-width: 375px) {
-    #about h1{
-        font-size: 30px;
-     }
-     #about img{
-        width: 40%;
-     }
-     .nav-item{
-        padding: 0 10px;
-     }
-}
-
-/* Mobile 360px    */
-@media (max-width: 360px) {
-    #about h1{
-        font-size: 30px;
-     }
-     #about img{
-        width: 40%;
-     }
-     
-}
-
-/* Mobile 320px    */
-@media (max-width: 320px) {
- #about h1{
-    font-size: 25px;
- }
- #about img{
-    width: 40%;
- }
+#contact span{
+  color: white;
+  font-size: 15px;
 }
