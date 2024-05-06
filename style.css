@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -15,6 +16,7 @@ header {
   position: sticky;
   top: 0;
 }
+
 
 ul .nav-link {
   color: black;
